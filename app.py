@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsRegressor
 
 # Initialize Cohere client
-co = cohere.Client("FXcuRW7jH7XzmgaQXBzpOny9qyzi7XpslOTah8V7")  
+co = cohere.Client("API KEY")  
 
 # Function to generate meal plan using Cohere API
 def generate_meal_plan(prompt):
